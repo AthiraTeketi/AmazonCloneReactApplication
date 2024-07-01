@@ -1,0 +1,495 @@
+.AmazonWebsite{
+    background-image: url('C:\Users\ateketi\Desktop\reactFiles\amazonClone\amazonsite\src\kartimage.PNG');
+    background-size: cover;
+    height: 2280px;
+    width: 1300px;
+  
+}
+.body{
+    margin: 0;
+    font-family: Arial;
+    /* box-sizing: border-box; */
+}
+.navBar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height:70px;
+    width: 1300px;
+    background-color: rgb(7, 1, 26);
+    border-top-right-radius: 10px;
+}
+.Content{
+    padding-top: 110px;
+}
+.border{
+    border: 1px solic transparent;
+}
+.border :hover{
+    border: 1.5px solid white;
+}
+.navlogo img{
+  
+    padding: 15px 10px 10px 20px;
+    height: 40px;
+    width: 110px;
+    align-items: center;
+    border: none;
+}
+.navLocation{
+    padding: 0px 10px 10px 10px ;
+    color: white;
+    height: 30px;
+    width: 80px;
+    align-items: center;
+}
+.navLocation p{
+    color: rgb(164, 162, 162);
+    margin-left: 0.5rem;
+}
+.locationCtry{
+    color: white;
+    margin-right: 0.5rem;
+}
+.icon{
+    color: white; 
+   
+}
+.navSelect{
+    height: 35px; 
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+}
+.optionDD{
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    height: 40px;
+    width: 3rem;
+    border: none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px ;
+}
+.selectoption{
+    font-weight: bold;
+}
+.navSelect input{
+    border: none;
+    align-items: center;
+    width: 30rem;
+    height: 38px;
+    font-size: 17px;
+    
+}
+.navSelect button{
+    height: 40px;
+    width: 3rem;
+    border: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    background-color: rgb(242, 183, 89);
+}
+.countryList{
+    height:33px;
+    width: 70px;
+    align-items: end;
+    padding: 20px 10px 10px 10px;
+    color: rgb(224, 23, 30);
+    display: flex;
+}
+.ctryLstOpt {
+    background-color:rgb(7, 1, 26) ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    /* font-style: oblique; */
+
+}
+.clist{
+    color: white;
+    margin-right: 0.5rem;
+}
+.AccountDetails{
+    height: 35px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(7, 1, 26) ;
+    color: white;
+    align-items: flex-start;
+    padding: 14px 10px 0px 10px;
+    justify-content: center;
+    line-height: 1px;
+}
+.Acclist{
+    background-color:rgb(7, 1, 26) ;
+    color: white;
+    border: none;
+    font-size: 15px;
+
+}
+.accText{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.AccountDetail option{
+    font-weight: 300;
+}
+.Orders{
+    color: white;
+    height: 35px;
+    width: 80px;
+    line-height: 1px;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+.Cart{
+    height: 35px;
+    width: 80px;
+    color: white;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px 15px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.Cart p{
+    font-size:20px;
+    padding: 20px 10px 10px 5px;
+}
+.navBar_2{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 49, 66);
+    height: 40px;
+    width: 1300px;
+    color: white;
+    gap: 20px;
+    margin-top: 70px;
+}
+.selectCategory{
+    height: 10px;
+    width: auto;
+    margin-left: 10px;
+    
+}
+.great_deals{
+    align-items: flex-end;
+    color: white;
+    justify-content: end;
+    margin-left: 590px;
+}
+
+.AlertMsg {
+    background-color: white;
+    height: 30px;
+    width: 1282px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.ContentDivision{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.SignInDiv{
+    display: flex;
+    flex-direction: column;
+    height: 945px;
+    width: 360px;
+    margin-right: 10px;
+}
+.signBox{
+    background-color: white;
+    height: 160px;
+}
+.signBox h3{
+   
+    margin-left: 20px;
+}
+.signBox button{
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgb(253, 222, 19);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+
+}
+.ShippingImage{
+    margin-top: 20px;
+    height: 300px;
+    background-color: rgb(64, 188, 233);
+}
+.ShippingImage img{
+    height: 300px;
+    width: 270px;
+}
+.emptyDivs{
+    height: 35px;
+}
+.Products1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height:430px ;
+    
+}
+.fashion{
+    height: 400px;
+    width: 300px ;
+    background-color: white;
+    margin-left: 10px;
+}
+.fashion h3{
+    padding-left: 35px;
+}
+.fashion img{
+    height: 300px;
+    width: 250px;
+    margin-left: 30px;
+}
+.HomeApplience{
+    height: 400px;
+    width: 300px ;
+    background-color: white;
+}
+.HomeApplience h3{
+    padding-left: 30px;
+}
+.HomeApplience img{
+    height: 300px;
+    width: 250px;
+    margin-left: 23px;
+}
+.PersonalCare{
+    height: 400px;
+    width: 320px ;
+    background-color: white;
+}
+.PersonalCare h3{
+    padding-left: 45px;
+}
+.PersonalCare img{
+    height: 300px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.Products2{
+    display: flex;
+    flex-direction: column; 
+    gap: none;
+    background-color: white;
+    height: 280px;
+    width: 1280px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.Products2 h3{  
+    margin-left: 20px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+}
+.PopularItem1{
+    height: 250px;
+    width: 250px ;
+    margin-left: 5px;
+}
+.PopularItem1 img{
+    height:180px;
+    width: 180px ;
+    margin-left: 23px;
+}
+.PopularItem2{
+    height: 250px;
+    width: 250px ;
+   
+}
+.PopularItem2 img{
+    height:180px;
+    width: 180px ;
+    margin-left: 33px;
+}
+.PopularItem3{
+    height: 250px;
+    width: 250px ;
+    
+}
+.PopularItem3 img{
+    height:180px;
+    width: 180px ;
+    margin-left: 33px;
+}
+.PopularItem4{
+    height: 250px;
+    width: 250px ;
+    
+}
+.PopularItem4 img{
+    height:180px;
+    width: 180px ;
+    margin-left: 33px;
+}
+.PopularItem5{
+    height:180px;
+    width: 180px ;
+    margin-left: 33px;
+}
+.Products3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 510px;
+    width: 1000px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.HomeDecor{
+    height: 510px;
+    width: 485px;
+    background-color: white;
+    margin-left: 1px;
+    
+}
+.HomeDecor h3{
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.HomeDecor img{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.kitchen{
+    height: 510px;
+    width: 465px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.kitchen h3{
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+.kitchen img{
+    margin-top: 10px;
+    height: 205px;
+    width: 400px;
+    margin-left: 35px;
+}
+.Products4{
+    height: 300px;
+    width: 1280px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.PrdctImg1 img{
+    height:220px ;
+    width: 210px;
+    margin-left: 20px;
+
+}
+.PrdctImg1 h3{
+    margin-left: 30px;
+}
+.PrdctImg2 img{
+    height:220px ;
+    width: 220px;
+    margin-left: 20px;
+
+}
+.PrdctImg2 h3{
+    margin-left: 30px;
+}
+.PrdctImg3 img{
+    height:220px ;
+    width: 220px;
+    margin-left: 20px;
+
+}
+.PrdctImg3 h3{
+    margin-left: 30px;
+}
+.PrdctImg4 img{
+    height:220px ;
+    width: 220px;
+    margin-left: 20px;
+
+}
+.PrdctImg4 h3{
+    margin-left: 30px;
+}
+.PrdctImg5 img{
+    height:220px ;
+    width: 220px;
+    margin-left: 10px;
+
+}
+.PrdctImg5 h3{
+    margin-left: 30px;
+}
+.Registration{
+    margin-top: 40px;
+    height: 400px;
+    background-color: aliceblue;
+}
+.Registration h3{
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.Registration form{
+    margin-left: 30px;
+}
+.Registration button{
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    background-color:rgb(217, 161, 70) ;
+    border: none;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+
+}
+.Description{
+    height: 300px;
+    width: 1300px;
+    background-color: rgb(27, 38, 50);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 220px;
+    text-align: center;
+}
+.DescDivs1{
+    margin-left: 10px;
+}
+.DescDivs1 p{
+    text-align: left;
+    line-height: 0.6;
+
+}
+.DescDivs p{
+    text-align: left;
+    line-height: 0.6;
+    
+}

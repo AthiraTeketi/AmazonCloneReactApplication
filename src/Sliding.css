@@ -1,0 +1,31 @@
+.SlidingComponent {
+    position: relative;  /* Ensure the buttons are positioned relative to this container */
+    width: 100%;         /* Adjust as needed */
+    max-width: 100%;     /* Make sure the image doesn't exceed the container's width */
+  
+  }
+  
+  .SlidingComponent img {
+    width: 100%;         /* Ensure the image fills the container */
+    height: 320px;       /* Maintain aspect ratio */
+  }
+  
+  .SlidingComponent button {
+    position: absolute;
+    top: 50%; /* transform: translateY(-50%); */
+    background-color: none;
+    border: none;
+    color: rgb(6, 6, 6);
+    font-size: 24px;    /* Adjust the size of the icons */
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .SlidingComponent .leftArrow {
+    left: 10px;  /* Position the left arrow button */
+  }
+  
+  .SlidingComponent .rightArrow {
+    right: 10px; /* Position the right arrow button */
+  }
+  
